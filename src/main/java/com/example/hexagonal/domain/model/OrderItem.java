@@ -1,4 +1,4 @@
-package com.example.domain.model;
+package com.example.hexagonal.domain.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

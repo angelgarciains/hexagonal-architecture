@@ -3,8 +3,9 @@ package com.example.domain.service;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import com.example.domain.model.Order;
-import com.example.domain.model.OrderItem;
+import com.example.hexagonal.application.OrderService;
+import com.example.hexagonal.domain.model.Order;
+import com.example.hexagonal.domain.model.OrderItem;
 import io.quarkus.test.junit.QuarkusTest;
 import jakarta.inject.Inject;
 import java.math.BigDecimal;
