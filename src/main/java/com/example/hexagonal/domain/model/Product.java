@@ -1,4 +1,4 @@
-package com.example.domain;
+package com.example.hexagonal.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

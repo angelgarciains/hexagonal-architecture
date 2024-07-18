@@ -1,4 +1,4 @@
-package com.example.application;
+package com.example.hexagonal.application;
 
 import jakarta.enterprise.context.ApplicationScoped;
 

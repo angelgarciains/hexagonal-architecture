@@ -1,4 +1,4 @@
-package com.example.domain.model;
+package com.example.hexagonal.domain.model;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
@@ -10,7 +10,6 @@ import jakarta.persistence.Table;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

@@ -1,13 +1,12 @@
-package com.example.adapters;
+package com.example.hexagonal.adapters.in.web;
 
-import com.example.application.ProductService;
+import com.example.hexagonal.application.ProductService;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
-import lombok.Getter;
 
 @Path("/products")
 public class ProductController {

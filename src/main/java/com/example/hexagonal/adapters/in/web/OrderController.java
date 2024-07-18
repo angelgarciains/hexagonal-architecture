@@ -1,8 +1,8 @@
-package com.example.application.rest;
+package com.example.hexagonal.adapters.in.web;
 
-import com.example.domain.model.Order;
-import com.example.domain.model.OrderItem;
-import com.example.domain.service.OrderService;
+import com.example.hexagonal.domain.model.Order;
+import com.example.hexagonal.domain.model.OrderItem;
+import com.example.hexagonal.application.OrderService;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
@@ -15,12 +15,11 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.core.Response.Status;
 import java.util.List;
-import lombok.Getter;
 
 @Path("/orders")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class OrderResource {
+public class OrderController {
 
   @Inject
   OrderService orderService;

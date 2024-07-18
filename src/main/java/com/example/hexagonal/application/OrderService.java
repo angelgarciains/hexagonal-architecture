@@ -1,8 +1,8 @@
-package com.example.domain.service;
+package com.example.hexagonal.application;
 
-import com.example.domain.model.Order;
-import com.example.domain.model.OrderItem;
-import com.example.domain.repository.OrderRepository;
+import com.example.hexagonal.domain.model.Order;
+import com.example.hexagonal.domain.model.OrderItem;
+import com.example.hexagonal.adapters.out.persistence.OrderRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
